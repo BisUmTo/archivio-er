@@ -1,4 +1,6 @@
-# Officina E/R
+# Archivio E/R
+
+[Apri il laboratorio](https://bisumto.github.io/archivio-er/)
 
 Un laboratorio di basi di dati per ripassare la progettazione E/R e la conversione al modello relazionale. In italiano, mobile first, interamente frontend.
 
