@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+.openai/
+*.log
+Officina-ER-registro.json
+Officina-ER-riepilogo.html

@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),ER=require('../dist/engine.js');
+const r={from:'libro',to:'categoria'};
+let d=ER.diagramRelation(r,{from:'libro',to:'categoria',a:'1,1',b:'0,N'});
+assert.deepEqual(d,{top:'N',bottom:'1',partA:'required',partB:'optional',direction:'▼'});
+d=ER.diagramRelation(r,{from:'categoria',to:'libro',cardinality:'1:N',partA:'0',partB:'1'});
+assert.deepEqual(d,{top:'1',bottom:'N',partA:'optional',partB:'required',direction:'▲'});
+d=ER.diagramRelation(r,{from:'libro',to:'categoria',cardinality:'N:1',partA:'0',partB:''});
+assert.equal(d.top,'N');assert.equal(d.bottom,'1');assert.equal(d.partA,'optional');assert.equal(d.partB,'unset');
+d=ER.diagramRelation(r,{});assert.equal(d.top,'');assert.equal(d.bottom,'');assert.equal(d.direction,'');assert.equal(d.partA,'unset');
+d=ER.diagramRelation({from:'ricetta',to:'ricetta'},{from:'ricetta',to:'ricetta',a:'0,N',b:'0,N'});assert.equal(d.direction,'▼');assert.equal(d.top,'N');assert.equal(d.bottom,'N');
+console.log('Diagram checks passed: endpoint cardinalities, partial selections, legacy progress, reversed reading, recursive roles.');
