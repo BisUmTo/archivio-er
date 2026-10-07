@@ -1,0 +1,71 @@
+@font-face{font-family:Fredoka;src:url('../v2/assets/Fredoka.woff') format('woff');font-display:swap}
+html[data-theme=archivio]{--paper:#fcf5df;--ink:#243f32;--muted:#5b6c52;--line:#babd98;--green:#386c4d;--soft:#e9edd1;--lime:#efd28e;font-family:Fredoka,system-ui,sans-serif;background:#163b30;color:#f9eed0}
+html[data-theme=archivio] body{background:linear-gradient(#102c24b0,#14362dd9),url('../v2/assets/archive.webp') center top/cover fixed;color:#f9eed0;min-height:100dvh}
+html[data-theme=archivio] .v3-header{border-color:#bdc39655;background:#143c31c9;max-width:none;padding-inline:max(24px,calc((100vw - 1192px)/2))}
+html[data-theme=archivio] .v3-brand,html[data-theme=archivio] .v3-brand strong span{color:#ffe3a0}
+html[data-theme=archivio] .v3-header nav button{color:#e5e7cb}
+html[data-theme=archivio] .v3-header nav button[aria-current=page]{background:#ecd497;color:#28422e}
+html[data-theme=archivio] .eyebrow{color:#e9ca83}
+html[data-theme=archivio] .v3-mission h1,html[data-theme=archivio] .v3-home h1{color:#fff0c8}
+html[data-theme=archivio] .v3-steps button{background:#244b3ddf;color:#dce7ca;border-color:#9aab784d}
+html[data-theme=archivio] .v3-steps button:disabled{background:#214439b0;color:#afbaa1}
+html[data-theme=archivio] .v3-steps button[aria-current=step]{background:#efce87;color:#30452e;border-color:#ffe7b2}
+html[data-theme=archivio] .v3-command p,html[data-theme=archivio] .command-line>span,html[data-theme=archivio] .v3-home p,html[data-theme=archivio] .view-title p,html[data-theme=archivio] .local-note,html[data-theme=archivio] .selection-foot,html[data-theme=archivio] .progress-list p,html[data-theme=archivio] .v3-complete>p{color:#d6e0c1}
+html[data-theme=archivio] .v3-brief{background:#143c31ee;border-color:#8d9f705e}
+html[data-theme=archivio] .brief summary,html[data-theme=archivio] .brief summary>span,html[data-theme=archivio] .brief-body{color:#f0e9c8}
+html[data-theme=archivio] .entity-editor,html[data-theme=archivio] .relation-editor,html[data-theme=archivio] .table-editor,html[data-theme=archivio] .question,html[data-theme=archivio] .v3-course,html[data-theme=archivio] .rule-card{color:#294334;background:#fcf3dc;border:1px solid #c8bc94;border-top:4px solid #b6c690;border-radius:6px 18px 6px 6px;box-shadow:0 4px #102c2480}
+html[data-theme=archivio] .entity-choice{background:linear-gradient(#fff8e7,#f0e4c4);border-color:#c5b787;color:#294534;border-radius:6px 15px 6px 6px;box-shadow:0 3px #0c2a2155}
+html[data-theme=archivio] .entity-choice[aria-pressed=true]{background:#dce8bd;border-color:#84a96b}
+html[data-theme=archivio] .v3-card-tabs button{background:#214b3b;color:#ede9cc;border-color:#819c71}
+html[data-theme=archivio] .v3-card-tabs small{color:#cfddbd}
+html[data-theme=archivio] .v3-card-tabs button[aria-pressed=true]{background:#efd79d;color:#2e4834;border-color:#edcc8c}
+html[data-theme=archivio] .v3-card-tabs button[aria-pressed=true] small{color:#566346}
+html[data-theme=archivio] .attribute-row{border-color:#d9d7b9}
+html[data-theme=archivio] .pk-toggle{background:#fbf0d5;border-color:#a5b087;color:#476443}
+html[data-theme=archivio] .pk-toggle[aria-pressed=true]{background:#e5bd65;color:#34442c;border-color:#ad893c}
+html[data-theme=archivio] .reading-sentence,html[data-theme=archivio] .column-item{background:#f3ecd4}
+html[data-theme=archivio] .reading-sentence legend,html[data-theme=archivio] .control label,html[data-theme=archivio] .identification-editor label{color:#435e43}
+html[data-theme=archivio] .identification-editor select,html[data-theme=archivio] .control select,html[data-theme=archivio] .sentence-flow select{background:#fffcef;color:#243f32;border-color:#a5b58b}
+html[data-theme=archivio] .help-row .text-button{color:#f1d28a}
+html[data-theme=archivio] .v3-hint{background:#f4e8c6;color:#334d37;border:1px solid #c7b981}
+html[data-theme=archivio] .v3-hint p{color:#334d37}
+html[data-theme=archivio] .v3-footer{background:#143c31f5;border-color:#92a27270}
+html[data-theme=archivio] .back{color:#e2e7c8}
+html[data-theme=archivio] .primary{background:linear-gradient(#ebca80,#d19e43);border:1px solid #ffe3a6;color:#2a402b;box-shadow:0 3px #73511d}
+html[data-theme=archivio] .primary:hover{background:#f1d18f}
+html[data-theme=archivio] .secondary{background:#e8d29b;color:#304631;border-color:#ad9d68}
+html[data-theme=archivio] .model-preview{background:#183f31;border-color:#879e6d;color:#f5ebc9}
+html[data-theme=archivio] .model-top{border-color:#8b9d684f}
+html[data-theme=archivio] .er-graph{--graph-node:#faf0d1;--graph-border:#9dad80;--graph-title:#345738;--graph-text:#233e32;--graph-label:#ecd38f;--graph-label-text:#193c2f;--graph-line:#f0dfaa;--graph-key:#846521;background:#183d32;color:#f3ebcd}
+html[data-theme=archivio] .graph-cardinality text{stroke:#183d32}
+html[data-theme=archivio] .diagram-tools{border-color:#8b9d684f}
+html[data-theme=archivio] .diagram-tools button{background:#234c3c;border-color:#829970;color:#f2e8c7}
+html[data-theme=archivio] .diagram-viewport{background-image:radial-gradient(#c0d89838 .8px,transparent .8px)}
+html[data-theme=archivio] .v3-legend{border-color:#8b9d6855}
+html[data-theme=archivio] .canvas{background:#183d32}
+html[data-theme=archivio] .model-switch button{color:#f2e3b9;background:#28513d;border-color:#8a9b6c}
+html[data-theme=archivio] .model-switch button[aria-pressed=true]{background:#e4c983;color:#294533}
+html[data-theme=archivio] .empty-model{color:#d4dfbf}
+html[data-theme=archivio] .diagram-dialog{background:#183d32;color:#f3ebcd}
+html[data-theme=archivio] .diagram-dialog-head button{background:#234c3c;color:#f3ebcd}
+html[data-theme=archivio] .relational-table,html[data-theme=archivio] .relational-table caption{background:#faf0d1;color:#2e4733}
+html[data-theme=archivio] .relational-table th{background:#e8e7c2;color:#2e4733}
+html[data-theme=archivio] .v3-course{position:relative}
+html[data-theme=archivio] .v3-home{padding-right:110px;position:relative}
+html[data-theme=archivio] .v3-home:after{content:'';position:absolute;right:0;bottom:24px;width:95px;height:120px;background:url('../v2/assets/archi.webp') center/contain no-repeat;filter:drop-shadow(0 5px 5px #0a221c88)}
+html[data-theme=archivio] .v3-course .secondary{background:#e8d29b}
+html[data-theme=archivio] .v3-stats>div{background:#f4e8c9;color:#304631;border-color:#c3b582}
+html[data-theme=archivio] .v3-shell>.small-note,html[data-theme=archivio] .exercise-pane>.small-note{color:#dce5c8}
+html[data-theme=archivio] .rule-summary{background:#e7e8c8;color:#344b32}
+html[data-theme=archivio] .boss-board{color:#304631;background:#faf0d5}
+html[data-theme=archivio] .boss-intro>p{color:#dae2c3}
+html[data-theme=archivio] .coach{background:#f2e6c6;color:#314a36}
+html[data-theme=archivio] .association-progress{color:#ead49c}
+html[data-theme=archivio] .association-phase .text-button{color:#ecd59a}
+html[data-theme=archivio] .table-tray .table-chip{background:#f8edcd;border-color:#abac7a;color:#2e4734}
+html[data-theme=archivio] .table-chip[aria-pressed=true]{background:#436849;color:#f9efd1}
+html[data-theme=archivio] .v3-complete .text-button{color:#eed397}
+html[data-theme=archivio] .mobile-work-tabs{background:#173e31;border:1px solid #8a9e6b66}
+html[data-theme=archivio] .mobile-work-tabs button{color:#dfe5c3}
+html[data-theme=archivio] .mobile-work-tabs button[aria-pressed=true]{background:#ecd59c;color:#2e4530}
+@media(max-width:900px){html[data-theme=archivio] .v3-header{padding-inline:16px}html[data-theme=archivio] body{background-attachment:scroll;background-size:auto 100vh}html[data-theme=archivio] .v3-home{padding-right:76px}html[data-theme=archivio] .v3-home:after{width:68px;height:90px}}
